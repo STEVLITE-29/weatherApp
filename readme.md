@@ -68,10 +68,4 @@ The app includes media queries to ensure it looks good on all screen sizes — d
 
 ## 📄 License
 
-MIT License — feel free to use and modify!
-
----
-
-**Made with ❤️ using HTML, CSS & JavaScript**
-
----
+**StephenCodes — feel free to use and modify!**
