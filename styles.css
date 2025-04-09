@@ -1,0 +1,55 @@
+/* Apply basic styling to the entire body */
+body {
+    font-family: Arial, sans-serif; /* Clean, readable font */
+    text-align: center; /* Center-align all text and inline elements */
+    background: #87CEEB; /* Light blue background, sky-like color */
+    padding: 20px; /* Add spacing around the edges */
+}
+
+/* Style the main container that holds the app */
+.container {
+    background: white; /* White background for contrast */
+    padding: 20px; /* Internal spacing */
+    border-radius: 10px; /* Rounded corners */
+    display: inline-block; /* Shrink container to content size */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for a subtle 3D effect */
+}
+
+/* Style the text input field */
+input {
+    padding: 10px; /* Internal spacing for better usability */
+    margin-right: 10px; /* Space between input and button */
+}
+
+/* Style the button */
+button {
+    padding: 10px; /* Internal spacing for clickable area */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Style the div where weather information is displayed */
+#weather-info {
+    margin-top: 20px; /* Space above the info block */
+    font-size: 18px; /* Larger font for readability */
+}
+
+/* Responsive styles for smaller screens */
+
+/* Responsive styles for mobile phones */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    input, button {
+        font-size: 16px;
+    }
+
+    #weather-info {
+        font-size: 15px;
+    }
+}

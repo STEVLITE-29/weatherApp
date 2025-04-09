@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Define character encoding -->
+    <meta charset="UTF-8" />
+    
+    <!-- Ensure proper rendering and touch zooming on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Title of the webpage (appears in browser tab) -->
+    <title>Weather App</title>
+    
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Main container for app content -->
+    <div class="container">
+      
+      <!-- App heading -->
+      <h1>Weather App</h1>
+      
+      <!-- Input field for user to type a city name -->
+      <input type="text" id="city" placeholder="Enter city name" />
+      
+      <!-- Button to trigger weather fetch -->
+      <button id="getWeather">Get Weather</button>
+      
+      <!-- Container to display the weather information -->
+      <div id="weather-info"></div>
+    </div>
+    
+    <!-- External JavaScript file to handle logic (e.g. API calls, event listeners) -->
+    <script src="script.js"></script>
+  </body>
+</html>
